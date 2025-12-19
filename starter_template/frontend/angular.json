@@ -57,7 +57,8 @@
               "buildTarget": "angular.io-example:build:production"
             },
             "development": {
-              "buildTarget": "angular.io-example:build:development"
+              "buildTarget": "angular.io-example:build:development",
+              "proxyConfig": "proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
